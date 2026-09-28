@@ -7,11 +7,11 @@
 	objects = {
 
 /* Begin PBXFileReference section */
-		000000000000000000000120 /* Ai Camera Scanner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ai Camera Scanner.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		000000000000000000000120 /* Ai Manuver Camera.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ai Manuver Camera.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		000000000000000000000010 /* Ai Camera Scanner */ = {
+		000000000000000000000010 /* Ai Manuver Camera Sources */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = "Ai Camera Scanner";
 			sourceTree = "<group>";
@@ -30,7 +30,7 @@
 		000000000000000000000001 = {
 			isa = PBXGroup;
 			children = (
-				000000000000000000000010 /* Ai Camera Scanner */,
+				000000000000000000000010 /* Ai Manuver Camera Sources */,
 				000000000000000000000020 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -38,7 +38,7 @@
 		000000000000000000000020 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				000000000000000000000120 /* Ai Camera Scanner.app */,
+				000000000000000000000120 /* Ai Manuver Camera.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -46,9 +46,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		000000000000000100000000 /* Ai Camera Scanner */ = {
+		000000000000000100000000 /* Ai Manuver Camera */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 000000000000000110000000 /* Build configuration list for PBXNativeTarget "Ai Camera Scanner" */;
+			buildConfigurationList = 000000000000000110000000 /* Build configuration list for PBXNativeTarget "Ai Manuver Camera" */;
 			buildPhases = (
 				000000000000000120000000 /* Sources */,
 				000000000000000130000000 /* Frameworks */,
@@ -57,11 +57,11 @@
 			buildRules = (
 			);
 			fileSystemSynchronizedGroups = (
-				000000000000000000000010 /* Ai Camera Scanner */,
+				000000000000000000000010 /* Ai Manuver Camera Sources */,
 			);
-			name = "Ai Camera Scanner";
-			productName = MyApp;
-			productReference = 000000000000000000000120 /* Ai Camera Scanner.app */;
+			name = "Ai Manuver Camera";
+			productName = "Ai Manuver Camera";
+			productReference = 000000000000000000000120 /* Ai Manuver Camera.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -79,12 +79,13 @@
 					};
 				};
 			};
-			buildConfigurationList = 000000000000000010000000 /* Build configuration list for PBXProject "Ai Camera Scanner" */;
+			buildConfigurationList = 000000000000000010000000 /* Build configuration list for PBXProject "Ai Manuver Camera" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
+				id,
 			);
 			mainGroup = 000000000000000000000001;
 			minimizedProjectReferenceProxies = 1;
@@ -93,7 +94,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				000000000000000100000000 /* Ai Camera Scanner */,
+				000000000000000100000000 /* Ai Manuver Camera */,
 			);
 		};
 /* End PBXProject section */
@@ -115,7 +116,7 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		000000000000000011000000 /* Debug configuration for PBXProject "Ai Camera Scanner" */ = {
+		000000000000000011000000 /* Debug configuration for PBXProject "Ai Manuver Camera" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -169,7 +170,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 27.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MACOSX_DEPLOYMENT_TARGET = 27.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
@@ -185,7 +186,7 @@
 			};
 			name = Debug;
 		};
-		000000000000000012000000 /* Release configuration for PBXProject "Ai Camera Scanner" */ = {
+		000000000000000012000000 /* Release configuration for PBXProject "Ai Manuver Camera" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -233,7 +234,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 27.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MACOSX_DEPLOYMENT_TARGET = 27.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
@@ -247,7 +248,7 @@
 			};
 			name = Release;
 		};
-		000000000000000111000000 /* Debug configuration for PBXNativeTarget "Ai Camera Scanner" */ = {
+		000000000000000111000000 /* Debug configuration for PBXNativeTarget "Ai Manuver Camera" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -257,6 +258,9 @@
 				ENABLE_PREVIEWS = YES;
 				ENABLE_USER_SELECTED_FILES = readonly;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Ai Manuver Camera";
+				INFOPLIST_KEY_NSCameraUsageDescription = "AI Scanner uses the camera to scan documents, text, and codes.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Choose a photo to scan text and codes on your device.";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -285,7 +289,7 @@
 			};
 			name = Debug;
 		};
-		000000000000000112000000 /* Release configuration for PBXNativeTarget "Ai Camera Scanner" */ = {
+		000000000000000112000000 /* Release configuration for PBXNativeTarget "Ai Manuver Camera" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -295,6 +299,9 @@
 				ENABLE_PREVIEWS = YES;
 				ENABLE_USER_SELECTED_FILES = readonly;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Ai Manuver Camera";
+				INFOPLIST_KEY_NSCameraUsageDescription = "AI Scanner uses the camera to scan documents, text, and codes.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Choose a photo to scan text and codes on your device.";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -326,19 +333,19 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		000000000000000010000000 /* Build configuration list for PBXProject "Ai Camera Scanner" */ = {
+		000000000000000010000000 /* Build configuration list for PBXProject "Ai Manuver Camera" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				000000000000000011000000 /* Debug configuration for PBXProject "Ai Camera Scanner" */,
-				000000000000000012000000 /* Release configuration for PBXProject "Ai Camera Scanner" */,
+				000000000000000011000000 /* Debug configuration for PBXProject "Ai Manuver Camera" */,
+				000000000000000012000000 /* Release configuration for PBXProject "Ai Manuver Camera" */,
 			);
 			defaultConfigurationName = Release;
 		};
-		000000000000000110000000 /* Build configuration list for PBXNativeTarget "Ai Camera Scanner" */ = {
+		000000000000000110000000 /* Build configuration list for PBXNativeTarget "Ai Manuver Camera" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				000000000000000111000000 /* Debug configuration for PBXNativeTarget "Ai Camera Scanner" */,
-				000000000000000112000000 /* Release configuration for PBXNativeTarget "Ai Camera Scanner" */,
+				000000000000000111000000 /* Debug configuration for PBXNativeTarget "Ai Manuver Camera" */,
+				000000000000000112000000 /* Release configuration for PBXNativeTarget "Ai Manuver Camera" */,
 			);
 			defaultConfigurationName = Release;
 		};
