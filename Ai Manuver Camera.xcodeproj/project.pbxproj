@@ -258,6 +258,7 @@
 				ENABLE_PREVIEWS = YES;
 				ENABLE_USER_SELECTED_FILES = readonly;
 				GENERATE_INFOPLIST_FILE = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_KEY_CFBundleDisplayName = "Ai Manuver Camera";
 				INFOPLIST_KEY_NSCameraUsageDescription = "AI Scanner uses the camera to scan documents, text, and codes.";
 				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Choose a photo to scan text and codes on your device.";
@@ -299,6 +300,7 @@
 				ENABLE_PREVIEWS = YES;
 				ENABLE_USER_SELECTED_FILES = readonly;
 				GENERATE_INFOPLIST_FILE = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_KEY_CFBundleDisplayName = "Ai Manuver Camera";
 				INFOPLIST_KEY_NSCameraUsageDescription = "AI Scanner uses the camera to scan documents, text, and codes.";
 				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Choose a photo to scan text and codes on your device.";
